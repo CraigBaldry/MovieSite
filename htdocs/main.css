@@ -1,0 +1,161 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #413c42;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+#logo {
+	background-color: #b380d5;
+	display: block;
+	width: 180;
+	height: 90;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.container {
+	width: 1500px;
+	background-color: #FFF;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header {
+	background-color: #9d6eb9;
+}
+.header img{		
+	width: 180px;
+	height:180px;
+}
+.header h1{
+	float: right;
+	padding-top: 80px;
+	padding-right: 1000px;
+}
+.header h1 a {
+	color: whitesmoke;
+}
+.sidebar1 {
+	float: left;
+	width: 180px;	
+	background-color: #9d6eb9b0;
+	padding-bottom: 10px;
+}
+.sidebar2 {
+	float: Right;
+	width: 180px;	
+	background-color: #9d6eb9b0;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px;
+	width: 1120px;
+	float: left;
+}
+.content, .sidebar1, .sidebar2{
+	padding-bottom: 99999px; 
+	margin-bottom: -99999px;
+}
+
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+ul.nav li {
+	border-bottom: 1px solid white;
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: #8539b1;
+	color: white;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background-color: #9d6eb9;
+	color: #FFF;
+}
+.footer {
+	padding: 10px 0;
+	background-color: #9d6eb9;
+	position: relative;
+	clear: both;
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#searchTable {
+	position: relative;
+	border-collapse: collapse;
+	width: 100%;
+	overflow: auto;
+	height: auto;
+}
+#searchTable th {
+	text-align: left;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #9900ff;
+	color: #FFF;
+}
+#searchTable tr:nth-child(even) {
+	background-color: #e0b3ff;
+}
+#searchTable tr:hover {
+	background-color: #ddd;
+}
+#searchTable td, #searchTable th {
+	border: 1px solid #000000;
+	padding: 8px;
+}
+.submission-form{
+	max-width: 500px;
+	margin: 2rem auto;
+	border: 2px solid black;
+	padding: 2rem;
+	
+}
+label{
+	display: block;
+}
+input{
+	display:block;
+}
+
+
