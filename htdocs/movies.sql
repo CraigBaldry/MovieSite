@@ -16,7 +16,7 @@ CREATE TABLE movies (
     PRIMARY KEY (id)
 );
 
-LOAD DATA LOCAL INFILE 'D:/smojo/Documents/xampp/htdocs/Movies.csv' 
+LOAD DATA LOCAL INFILE 'D:/your/path/here/xampp/htdocs/Movies.csv' 
 INTO TABLE movies 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
